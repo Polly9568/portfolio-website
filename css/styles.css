@@ -27,7 +27,7 @@
   --margin-top-bottom: 80px;
   --max-width-page: 700px;
   --normal-width: 250px;
-  --primary-color: #c46a87;
+  --primary-color: #ca6f8c;
   --project-gride-color: #ebbacc;
   --project-grid-color-hover: #f0f0f0;
   --secondary-color: #893453;
@@ -77,8 +77,12 @@ table {
   line-height: var(--line-height);
 }
 
+a {
+  color: var(--primary-color);
+}
+
 a:visited {
-  color: var(--primary-color) !important;
+  color: var(--primary-color);
   transition: opacity 0.2s;
 }
 
@@ -89,7 +93,7 @@ a:focus {
 }
 
 a:active {
-  color: var(--primary-color) !important;
+  color: var(--primary-color);
 }
 
 button,
