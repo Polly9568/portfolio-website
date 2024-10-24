@@ -15,7 +15,6 @@
   --grid-gap-medium: 20px;
   --grid-gap-small: 5px;
   --hover-opacity: 0.8;
-  --link-visited-color: #ca6f8c;
   --line-height: 1.6;
   --media-font-size-header: 24px;
   --media-font-size-subhead: 16px;
@@ -79,7 +78,7 @@ table {
 }
 
 a:visited {
-  color: var(--link-visited-color);
+  color: var(--primary-color);
   transition: opacity 0.2s;
 }
 
