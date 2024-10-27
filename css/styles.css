@@ -77,13 +77,9 @@ table {
   line-height: var(--line-height);
 }
 
-a {
-  color: var(--primary-color);
-}
-
 a:visited {
-  color: var(--secondary-color);
-  transition: opacity 0.2s;
+  color: var(--primary-color);
+  transition: opacity 0.5s;
 }
 
 a:hover,
@@ -94,6 +90,7 @@ a:focus {
 
 a:active {
   color: var(--secondary-color);
+  text-decoration: none;
 }
 
 button,
