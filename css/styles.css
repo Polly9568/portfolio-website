@@ -77,6 +77,10 @@ table {
   line-height: var(--line-height);
 }
 
+a{
+  color: var(--primary-color)
+}
+
 a:visited {
   color: var(--primary-color);
   transition: opacity 0.5s;
